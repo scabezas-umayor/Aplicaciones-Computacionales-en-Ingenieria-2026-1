@@ -13,13 +13,14 @@ Si necesitas agregar, eliminar o modificar elementos sobre la marcha, la lista e
 Se definen utilizando corchetes [].
 
 ### Ejemplo 1: Sintaxis aplicada
-
+```py
 mi_lista = ["Java", "Python", "PHP"]
-
+```
 ### Ejemplo 2: Aplicado
 
 Imagina un sistema de registro donde los estudiantes se van inscribiendo a un ramo a lo largo del día.
 
+```python
 # Lista inicial de estudiantes inscritos
 inscritos_ramo = ["Ana", "Pedro", "Diego"]
 
@@ -31,6 +32,7 @@ inscritos_ramo.remove("Pedro")
 
 print(inscritos_ramo) 
 # Salida: ['Ana', 'Diego', 'Sofía']
+```
 
 ## Tuplas (Tuples)
 Son colecciones ordenadas e inmutables de elementos. 
@@ -47,18 +49,22 @@ Se definen utilizando paréntesis ().
 
 ### Ejemplo 1: Sintaxis
 
+```
 mi_tupla = (10, 20, 30)
+```
 
 ### Ejemplo 2: Aplicado
 
 Almacenar las coordenadas geográficas fijas de las distintas sedes de una universidad. Es un dato que no va a cambiar durante la ejecución de la aplicación.
 
+```python
 # Coordenadas (Latitud, Longitud) de la sede principal
 coordenadas_sede = (-33.4372, -70.6506)
 
 print(f"La latitud de la sede es: {coordenadas_sede[0]}")
 
 # Si intentas hacer coordenadas_sede[0] = -34.000, Python arrojará un error.
+```
 
 ## Diccionarios (Dictionaries)
 
@@ -75,13 +81,13 @@ Son ideales para búsquedas rápidas y para representar entidades con múltiples
 Se definen utilizando llaves {} y separando la clave del valor con dos puntos :
 
 ### Ejemplo 1: Sintaxis
-
+```python
 mi_diccionario = {"lenguaje": "Python", "version": 3.12}
-
+```
 ### Ejemplo 2: Aplicado
 
 Almacenar el perfil de un estudiante y sus notas en distintas evaluaciones, lo cual requiere etiquetas claras para cada dato.
-
+```python
 estudiante = {
     "rut": "12345678-9",
     "nombre": "Carlos",
@@ -94,5 +100,5 @@ print(f"El estudiante {estudiante['nombre']} obtuvo un {estudiante['notas_solemn
 
 # Agregando un nuevo par clave-valor
 estudiante["estado"] = "Aprobado"
-
+```
 
