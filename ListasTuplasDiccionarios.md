@@ -13,7 +13,7 @@ Si necesitas agregar, eliminar o modificar elementos sobre la marcha, la lista e
 Se definen utilizando corchetes [].
 
 ### Ejemplo 1: Sintaxis aplicada
-```py
+```python
 mi_lista = ["Java", "Python", "PHP"]
 ```
 ### Ejemplo 2: Aplicado
@@ -49,7 +49,7 @@ Se definen utilizando paréntesis ().
 
 ### Ejemplo 1: Sintaxis
 
-```
+```python
 mi_tupla = (10, 20, 30)
 ```
 
@@ -81,6 +81,7 @@ Son ideales para búsquedas rápidas y para representar entidades con múltiples
 Se definen utilizando llaves {} y separando la clave del valor con dos puntos :
 
 ### Ejemplo 1: Sintaxis
+
 ```python
 mi_diccionario = {"lenguaje": "Python", "version": 3.12}
 ```
@@ -101,4 +102,3 @@ print(f"El estudiante {estudiante['nombre']} obtuvo un {estudiante['notas_solemn
 # Agregando un nuevo par clave-valor
 estudiante["estado"] = "Aprobado"
 ```
-
